@@ -44,6 +44,7 @@ public class PayTollNotice_Class extends PerfDB {
   public void PayTollNotice_Function() throws InterruptedException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 	
 	  System.out.println("Todays First commit");
+	  System.out.println("my new stmt");
 	  
 	  myDB.connectDB("jdbc:mysql://atnsw-bench006:3306/monitoringdb", "perfmon", "123");
 	  myDB.initializeScriptExec("Pay Toll Notice", "Roads and Maritime Services");
