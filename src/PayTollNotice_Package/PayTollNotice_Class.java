@@ -54,10 +54,7 @@ public class PayTollNotice_Class extends PerfDB {
 	  ActTxtCheck1=driver.findElement(By.linkText("Customer Charter")).getText();
 	  Assert.assertEquals(ActTxtCheck1, ExpTxtCheck1);
 	  LaunchURL.stop();
-	 // driver.manage().window().maximize();
-	  
-	
-	
+	 System.out.println("new line");
 	//LaunchURL.stop();
 	double res_time_sec1 = (double) LaunchURL.getTime();
 	res_time_sec1 = res_time_sec1/1000;
