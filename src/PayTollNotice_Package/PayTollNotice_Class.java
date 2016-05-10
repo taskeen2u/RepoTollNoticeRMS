@@ -43,12 +43,7 @@ public class PayTollNotice_Class extends PerfDB {
   @Test
   public void PayTollNotice_Function() throws InterruptedException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 	
-	  System.out.println("For jenkins");
-	  System.out.println("automatic builds");
-	  System.out.println("Todays First commit");
-	  System.out.println("my new stmt");
-	  System.out.println("stmt for running jenkins");
-	  
+		  
 	  myDB.connectDB("jdbc:mysql://atnsw-bench006:3306/monitoringdb", "perfmon", "123");
 	  myDB.initializeScriptExec("Pay Toll Notice", "Roads and Maritime Services");
 	  
